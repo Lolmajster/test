@@ -1,5 +1,5 @@
 exports.handler = function(event, context, callback) {
-    calback(null, {
+    callback(null, {
         statusCode: 200,
         body: "To jest sekretna strefa!"
     })
